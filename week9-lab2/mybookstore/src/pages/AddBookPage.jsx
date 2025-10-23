@@ -149,10 +149,10 @@ const AddBookPage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen relative bg-gradient-to-r from-indigo-700 to-rose-100">
       {/* Header */}
       <header className="bg-gradient-to-r from-viridian-600 to-green-700 text-white shadow-lg">
-        <div className="container mx-auto px-4 py-6">
+        <div className="container mx-auto px-4 py-6 ">
           <div className="flex justify-between items-center">
             <div className="flex items-center space-x-3">
               <BookOpenIcon className="h-8 w-8" />
@@ -171,7 +171,7 @@ const AddBookPage = () => {
       </header>
 
       {/* Main Content */}
-      <div className="container mx-auto px-4 py-8">
+      <div className="container mx-auto px-4 py-8 ">
         <div className="max-w-2xl mx-auto">
           <div className="bg-white rounded-xl shadow-lg p-8">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">เพิ่มหนังสือใหม่</h2>
